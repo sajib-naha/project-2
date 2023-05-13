@@ -1,0 +1,503 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Fjalla One', sans-serif;
+	line-height: 1.2em;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	background: #262626;
+}
+.header .logo{
+	width: 90%;
+	padding: 10px 0px;
+}
+.header .menu{
+	display: block;
+	width: 100%;
+	float: left;
+	text-align: center;
+	text-transform: capitalize;
+}
+.header .menu ul{
+	width: 100%;
+}
+.header .menu ul li{
+	display: inline-block;
+	list-style: none;
+}
+.header .menu ul li a{
+	display: block;
+	font-size: 25px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #e1b838;
+	padding: 10px 30px;
+	border: 4px solid #e1b838;
+	margin: 33px -6px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.header .menu ul li a:focus{
+	color: #262626;
+	background: #e1b838;
+	transition: 1s;
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding: 210px 0px 80px;
+	background: url("../images/progect-2-bi-1.png") center top no-repeat;
+	background-size: cover;
+}
+.banner .box{
+	text-align: center;
+	border: 4px solid #e1b838;
+}
+.banner h4{
+	font-size: 35px;
+	font-weight: 900;
+	color: #262626;
+	background: #e1b838;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 27px 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+.banner p{
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	background: transparent;
+	padding: 12px 30px;
+}
+.banner h3{
+	font-size: 35px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	margin: 60px 0px 0px;
+}
+.banner .owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+    height: 20px;
+    margin: 20px 12px -40px 12px;
+    background: transparent;
+    border: 2px solid #e1b838;
+}
+.banner .owl-theme .owl-dots .owl-dot.active span, .banner .owl-theme .owl-dots .owl-dot:hover span {
+    background: #e1b838;
+    border: 2px solid #e1b838;
+    transition: 1s;
+}
+.background{
+	width: 100%;
+	padding: 60px 0px;
+	background: #262626;
+}
+.banner-2{
+	width: 100%;
+	float: left;
+	padding: 10px 0px 140px;
+	background: url("../images/progect-2-bi-2.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-2 h1{
+	font-size: 60px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 0px 0px 300px;
+	letter-spacing: 2px;
+	text-shadow: 5px 10px 20px;
+}
+.banner-2 .chicken{
+	width: 100%;
+	float: left;
+	border: 4px solid #e1b838;
+	margin: 120px 0px -60px;
+}
+.banner-2 .chicken h4{
+	font-size: 30px;
+	font-weight: 700;
+	color: #262626;
+	text-transform: uppercase;
+	padding: 20px 20px;
+	background: #e1b838;
+	font-family: 'Open Sans', sans-serif;
+}
+.banner-2 .chicken .dish{
+	width: 100%;
+	padding: 10px 20px;
+}
+.banner-2 .chicken .dish li{
+	font-size: 20px;
+	font-weight: 500;
+	list-style: none;
+	line-height: 1.8em;
+	color: #fff;
+	margin: 0px 0px 0px -30px;
+}
+.banner-2 .chicken .price{
+	width: 100%;
+	padding: 10px 20px;
+}
+.banner-2 .chicken .price li{
+	font-size: 20px;
+	font-weight: 500;
+	list-style: none;
+	line-height: 1.8em;
+	text-align: right;
+	color: #fff;
+	margin: 0px 0px 0px -30px;
+}
+.background-2{
+	width: 100%;
+	padding: 60px 0px;
+	background: #262626;
+}
+.banner-3{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 80px;
+	background: url("../images/progect-2-bi-3.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-3 .get{
+	width: 100%;
+	text-align: right;
+	padding: 0px 40px 0px 0px;
+}
+.banner-3 .get p{
+	font-size: 40px;
+	font-weight: 400;
+	color: #e1b838;
+}
+.banner-3 .get p span{
+	font-weight: 700;
+}
+.banner-3 .get .btn-primary{
+	font-size: 20px;
+	font-weight: 500;
+	padding: 8px 50px;
+	text-transform: capitalize;
+	margin: 20px 0px 140px;
+	border: 1px solid #e1b838;
+	border-radius: 0px;
+	color: #262626;
+	background: #e1b838;
+	font-family: 'Fjalla One', sans-serif;
+}
+.banner-3 .get .btn-primary:hover{
+	background: #fff;
+	border: 1px solid #fff;
+}
+.banner-3 .get .btn-primary:focus{
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+.banner-3 .get img{
+	width: 14%;
+}
+.banner-3 .get h3{
+	font-size: 36px;
+	font-weight: 500;
+	margin: 30px 0px 0px;
+	text-transform: capitalize;
+	color: #e1b838;
+    text-shadow: 10px 10px 20px
+}
+.background-3{
+	width: 100%;
+	padding: 60px 0px;
+	background: #262626;
+}
+.banner-4{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 880px;
+	background: url("../images/progect-2-bi-4.png") center top no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+.banner-4 .special{
+	width: 60%;
+	border: 4px solid #e1b838;
+	margin: 0px 100px 0px;
+	text-align: center;
+}
+.banner-4 .special h4{
+	font-size: 33px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	color: #262626;
+	background: #e1b838;
+	font-family: 'Open Sans', sans-serif;
+}
+.banner-4 .special p{
+	font-size: 33px;
+	font-weight: 700;
+	color: #fff;
+	padding: 5px 0px 10px;
+	background: transparent;
+	text-transform: capitalize;
+}
+.banner-4 p{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #fff;
+	padding: 0px 0px 0px 40px;
+}
+.background-4{
+	width: 100%;
+	background: #262626;
+}
+.banner-5{
+	width: 100%;
+	float: left;
+	padding: 500px 0px 420px;
+	background: url("../images/progect-2-bi-5.png") center top no-repeat;
+	background-size: cover;
+	margin: -112px 0px 0px;
+}
+.banner-5 .special{
+	width: 70%;
+	border: 4px solid #e1b838;
+	margin: 0px 100px 0px;
+}
+.banner-5 .special h4{
+	font-size: 33px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding: 15px 20px;
+	text-transform: capitalize;
+	color: #262626;
+	background: #e1b838;
+	font-family: 'Open Sans', sans-serif;
+}
+.banner-5 .special p{
+	font-size: 25px;
+	font-weight: 400;
+	color: #fff;
+	padding: 0px 0px 0px 25px;
+	background: transparent;
+}
+.background-5{
+	width: 100%;
+	padding: 60px 0px;
+	background: #262626;
+}
+.banner-6{
+	width: 100%;
+	float: left;
+	background: url("../images/progect-2-bi-6.png") center top no-repeat;
+	background-size: cover;
+	padding: 250px 0px 620px;
+}
+.banner-6 .special{
+	width: 55%;
+	border: 4px solid #e1b838;
+	text-align: center;
+	margin: 0px 0px 0px 120px;
+}
+.banner-6 .special h4{
+	font-size: 33px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #262626;
+	background: #e1b838;
+	padding: 10px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.banner-6 .special h3{
+	font-size: 33px;
+	font-weight: 700;
+	color: #fff;
+	background: transparent;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	line-height: 1.4em;
+}
+.banner-6 .special h3 span{
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+.banner-6 p{
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #fff;
+	margin: 60px 0px 0px 0px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background: #262626;
+	padding: 100px 0px 40px;
+}
+.footer img{
+	width: 15%;
+    display: block;
+    margin: 0px auto;
+}
+.footer h2{
+	font-size: 35px;
+	font-weight: 700;
+	color: #e1b838;
+	margin: 10px 0px 0px 0px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+    text-shadow: 10px 10px 20px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.footer .special{
+	width: 55%;
+	border: 4px solid #e1b838;
+	text-align: center;
+	margin: 0px 0px 0px 120px;
+}
+.footer .special h4{
+	font-size: 25px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #262626;
+	background: #e1b838;
+	padding: 10px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer .special h3{
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+	background: transparent;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	line-height: 1.4em;
+}
+.footer .home{
+	width: 100%;
+	display: block;
+	padding: 20px 0px 0px;
+	margin: 0px 0px 0px 110px;
+}
+.footer .home li{
+	width: 100%;
+	display: inline-block;
+	list-style: none;
+}
+.footer .home li a{
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.7em;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.footer .home li a:focus{
+	color: #e1b838;
+}
+.footer .blog li a:focus{
+	color: #e1b838;
+}
+.footer .blog{
+	width: 100%;
+	display: block;
+	padding: 20px 0px 0px;
+}
+.footer .blog li{
+	width: 100%;
+	display: inline-block;
+	list-style: none;
+}
+.footer .blog li a{
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.7em;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.footer p{
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: capitalize;
+	margin: 40px 0px 40px;
+}
+.footer .house{
+	width: 100%;
+	display: block;
+	margin: 40px 0px 40px;
+	float: right;
+
+}
+.footer .house li{
+	list-style: none;
+	display: inline-block;
+	float: right;
+}
+.footer .house li a i{
+    border: 1px solid #e1b838;
+    padding: 7px;
+    font-size: 22px;
+    margin: 10px 15px 0px 15px;
+    color: #262626;
+    background: #e1b838;
+    border-radius: 3px;
+}
+.footer .house li a i:hover{
+	color: #e1b838;
+    background: #fff;
+}
+.footer .house li a i:focus{
+	color: #e1b838;
+    background: #fff;
+}
+.footer .house li a .fa-facebook{
+	padding: 7px 12px 6px 12px;
+}
+.footer .house li a .fa-instagram{
+	padding: 7px 8px 7px;
+}
+.footer .house li a{
+	display: block;
+    text-decoration: none;
+}
+.footer .house li a span{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    color: #e1b838;
+    margin: 0px 10px 0px;
+}
